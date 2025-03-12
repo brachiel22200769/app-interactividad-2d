@@ -9,7 +9,7 @@ document.body.style.fontFamily = "Arial, sans-serif";
 document.body.style.paddingTop = "10px";
 
 const title = document.createElement("h1");
-title.innerText = "Juego de Objetos";
+title.innerText = "Juego de Rayos Mcqueen";
 title.style.fontSize = "28px";
 title.style.fontWeight = "bold";
 title.style.color = "#FFD700";
@@ -24,7 +24,7 @@ levelCounter.style.fontSize = "20px";
 document.body.appendChild(levelCounter);
 
 const circleCounter = document.createElement("h2");
-circleCounter.innerText = "Objetos restantes: 10";
+circleCounter.innerText = "Yayos restantes: 10";
 circleCounter.style.color = "white";
 circleCounter.style.fontSize = "20px";
 document.body.appendChild(circleCounter);
